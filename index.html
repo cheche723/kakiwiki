@@ -21,16 +21,17 @@
       name: '卡积百科 Kaki Wiki',
       repo: '',
 	  formatUpdated: '{YYYY} 年 {MM} 月 {DD} 日 {HH}:{mm}', //最后更新时间
-	  plugins: [
-        function(hook, vm) {
+      plugins: [
+        function (hook, vm) {
           hook.beforeEach(function (html) {
-            return html
+            var update = ':memo:  更新于 {docsify-updated} \n\n'
+            return update
+              + html
               + '\n\n----\n\n'
-              + ':memo:  更新于 {docsify-updated} '
+              + ':heart:&nbsp;&nbsp;Powered by Kaki Wiki'
           })
         }
       ],
-	  
     search: {
       maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       paths: [], // or 'auto'
@@ -43,6 +44,7 @@
   </script>
 
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
 </body>
 </html>
