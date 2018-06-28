@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <title>卡积百科 Kaki Wiki</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="关于信用卡和积分的维基百科">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_539333_ah8wb2hv6yknvcxr.css">
 </head>
 <body>
   <div id="app">进入中...</div>
@@ -20,7 +21,11 @@
 	  subMaxLevel: 2,
       name: '',
       repo: '',
-	  formatUpdated: '{YYYY} 年 {MM} 月 {DD} 日 {HH}:{mm}', //最后更新时间
+	  //pagination: {
+        //previousText: '上一篇',
+        //nextText: '下一篇',
+      //},
+	  formatUpdated: '{YYYY} 年 {MM} 月 {DD} 日', //最后更新时间
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
@@ -45,5 +50,6 @@
 
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <!-- <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
 </body>
 </html>
