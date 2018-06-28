@@ -175,7 +175,7 @@
 
 ## 农业银行
 
-![](https://ws1.sinaimg.cn/large/49dba72ely1frv2j8rnvgj20ki06y42v.jpg)
+![](https://ws1.sinaimg.cn/large/49dba72ely1fsq8lundp0j20ki06y765.jpg)
 
 ### **漂亮升级妈妈海淘返现 10%**
 
