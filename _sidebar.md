@@ -1,22 +1,19 @@
 * 入门
 
-  * [简介](README.md)
+  * [认识卡积](README.md)
   * [快速开始](quickstart.md)
-
-* 信用卡比较
-
-  * [境外返现](post/cards/rebate.md)
-  * [星巴克](post/cards/starbucks.md)
-  * [汽车加油](post/cards/gas.md)
 
 * 信用卡权益
 
-  * [接送机](zh-cn/quickstart.md)
-  * [延误险](zh-cn/more-pages.md)
-  * 休息室
-  * 洗牙体检
-  * 酒店会籍
-  * 其他权益
+  * [境外返现](post/benefits/rebate.md)
+  * [星巴克](post/benefits/starbucks.md)
+  * [汽车加油](post/benefits/gas.md)
+  * [接送机](post/benefits/pickup.md)
+  * [延误险](post/benefits/delay.md)
+  * [休息室](post/benefits/lounge.md)
+  * [洗牙体检](post/benefits/health.md)
+  * [酒店会籍](post/benefits/membership.md)
+  * [其他权益](post/benefits/other.md)
 
 * 积分指南
 
@@ -24,10 +21,14 @@
 
     * [累积方法](zh-cn/quickstart.md)
     * [使用方法](zh-cn/more-pages.md)
+
   * 航空里程
+
     * [累积方法](zh-cn/quickstart.md)
     * [使用方法](zh-cn/more-pages.md)
+
   * 酒店积分
+
     * [累积方法](zh-cn/quickstart.md)
     * [使用方法](zh-cn/more-pages.md)
 
